@@ -1,0 +1,55 @@
+/*CONFIGURAÇÕES GERAIS*/
+* {
+    box-sizing: border-box;
+    background: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* 
+NEW CODE */
+
+.border-bottom-inputs{
+    border: 1px solid black;
+}
+
+.inputs {
+    background: #DEE3EB;
+    color: #00639C;
+}
+.inputs:focus{
+    border: 2px solid black;
+    outline: none;
+}
+
+.buttons{
+    background: #00639C;
+    border-radius:100px;
+    border:2px solid white;
+    cursor: pointer;
+    outline: none;
+}
+
+.buttons:focus{
+    border: 2px solid black;
+    outline: none;
+}
+
+.input-icons i {
+            position: absolute;
+        }
+          
+        .input-icons {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+          
+        .icon {
+            padding: 10px;
+            color: black;
+            min-width: 50px;
+            right: 0;
+            text-align: center;
+            background: #DEE3EB;
+        }
+          
+        
